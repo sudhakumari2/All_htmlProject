@@ -1,0 +1,214 @@
+/* univarsal selctor is for lining each line  */
+*{
+    /* border-top:10px solid #1098ad; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: #130101;
+    border-top:10px solid #1098ad;
+    position: relative;
+}
+
+.container{
+    width: 1200px;
+    position: relative;
+    margin: 0px 0px;
+}
+button{
+    font-size: 22px;
+    padding: 22px;
+    position:absolute;
+    margin-right: 20px;
+    bottom: 60px;
+    right: 10px;
+
+}
+
+h1 , h2 , h3 ,h4{
+    color: #1098ad;
+
+}
+h1 {
+    margin-top: 0px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;   
+}
+
+ol , ul{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+li {
+    font-size: 20px;
+}
+
+/* footer p {
+    font-size: 10px;
+} */
+
+/* article ,header p {
+    font-style: italic; */
+/* } */ */
+#auther {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#copyright{
+    font-size: 16px;
+}
+
+.related-aurther{
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+
+.related{
+    list-style: none;
+}
+
+.main-header{
+    background-color:#f7f7f7;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+}
+
+.post-header{
+    margin-bottom: 20px;
+}
+
+aside{
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    padding: 50px 40px;
+    box-sizing: border-box;
+}
+
+/* .first-li{
+    font-weight: bold;
+} */
+
+li:first-child{
+    font-weight: bold;
+}
+li:last-child{
+    font-style: italic;
+}
+/* li:nth-child(even){
+    /* color: red; */
+/* } */ 
+article p:first-child{
+    color: red;
+}
+
+/* styling links */
+a:link{
+    color: #1098ad;
+    text-decoration: none;
+}
+a:visited{
+    color: #1098ad;
+}
+a:hover{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+}
+a:active{
+    background-color: black;
+    font-style: italic;
+
+}
+.post-image{
+    width: 700px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+nav a:link{
+    /* background-color: orangered;
+    padding: 20px;
+    margin: 20px; */
+    margin-top: 10px;
+    display: inline-block;
+
+} */
+
+nav{
+    font-size: 18px;
+    text-align: center;
+}
+
+article{
+    margin-bottom: 60px;
+}
+
+.auther-image{
+    float: left;
+    margin-bottom: 20px;
+}
+.auther{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px; 
+} 
+
+h1{
+    float: left;
+}
+nav{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+article{
+    width: 825px;
+    float: left;
+}
+aside{
+    width: 300px;
+    float: right;
+}
+footer{
+    clear: both;
+
+}

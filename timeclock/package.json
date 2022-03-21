@@ -1,0 +1,18 @@
+{
+  "name": "timeclock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "glue": "^5.0.0",
+    "hapi": "^17.5.4",
+    "inert": "^5.1.0",
+    "joi": "^13.6.0"
+  }
+}
